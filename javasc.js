@@ -1,6 +1,6 @@
 $(document).ready(function(){
-  $("#Fst").animate({left:200, opacity:"show"}, 1650);
-    $("#Snd").animate({left:200, opacity:"show"}, 2150);
+  $("#Fst").animate({left:200, opacity:"show"}, 1550);
+    $("#Snd").animate({left:200, opacity:"show"}, 2050);
 
 //  $("#Fst").show("slide", { direction: "left" }, 1550);
   //$("#Snd").show("slide", { direction: "left" }, 2000);
