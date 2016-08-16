@@ -20,7 +20,7 @@ $(window).on("load",function() {
       var windowBottom = $(window).scrollTop() + $(window).innerHeight();
       
       /* If the element is completely within bounds of the window, fade it in */
-      if (objectBottom -30< windowBottom) { //object comes into view (scrolling down)
+      if (objectBottom< windowBottom) { //object comes into view (scrolling down)
         if ($(this).css("opacity")<=min+threshold || pageLoad) {$(this).fadeTo("slow",max);}
       } else { //object goes out of view (scrolling up)
         if ($(this).css("opacity")>=max-threshold || pageLoad) {$(this).fadeTo(500,min);}
