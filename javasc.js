@@ -1,8 +1,8 @@
 $(document).ready(function(){
-  $("#Fst").animate({left:200, opacity:"show"}, 1550);
+  $("#Fst").animate({left:200, opacity:"show"}, 1650);
     $("#Snd").animate({left:200, opacity:"show"}, 2150);
 
-  //$("#Fst").show("slide", { direction: "left" }, "slow");
+//  $("#Fst").show("slide", { direction: "left" }, 1550);
   //$("#Snd").show("slide", { direction: "left" }, 2000);
 //$("#Fst").fadeIn("slow");
 //$("#Snd").fadeIn("slow");
